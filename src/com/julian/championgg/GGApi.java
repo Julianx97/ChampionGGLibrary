@@ -18,7 +18,7 @@ import java.util.List;
 
 public class GGApi {
     public static void main(String[] args) throws APIException {
-        GGApi api = new GGApi("9586df7f0c07b46440d41e95f3d8f1a8");
+        GGApi api = new GGApi("YOUR_KEY_HERE");
         List<ChampionDataDetailed> data = api.getChampionData("annie");
 
         for (ChampionDataDetailed d : data){
